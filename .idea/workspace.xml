@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a2d8e1-07e4-435f-af16-342232b97d2f" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-application/src/main/java/com/golfacademy/clientapplication/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noauth-client/src/main/java/com/golfacademy/noauthclient/LessonsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource-server/src/main/java/com/golfacademy/resourceserver/lesson/Lesson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="54a2d8e1-07e4-435f-af16-342232b97d2f" name="Changes" comment="initial working version of the demo I want to record a tutorial on">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource-server/src/main/java/com/golfacademy/resourceserver/LessonsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/resource-server/src/main/java/com/golfacademy/resourceserver/lesson/LessonsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730467528074</updated>
       <workItem from="1730467529092" duration="466000" />
-      <workItem from="1730468000627" duration="7887000" />
+      <workItem from="1730468000627" duration="9105000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -149,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730471407430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial working version of the demo I want to record a tutorial on">
+      <option name="closed" value="true" />
+      <created>1730477477566</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730477477566</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="initial working version of the demo I want to record a tutorial on" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial working version of the demo I want to record a tutorial on" />
   </component>
 </project>
