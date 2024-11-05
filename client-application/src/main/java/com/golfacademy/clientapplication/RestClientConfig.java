@@ -16,4 +16,5 @@ public class RestClientConfig {
                 .requestInterceptor(interceptor)
                 .build();
     }
+
 }

@@ -20,8 +20,6 @@ import org.springframework.security.web.SecurityFilterChain;
 
 import java.util.UUID;
 
-import static org.springframework.security.config.Customizer.withDefaults;
-
 @Configuration
 public class AuthorizationServerConfig {
 
@@ -38,15 +36,6 @@ public class AuthorizationServerConfig {
     }
 
     @Bean
-    public UserDetailsService userDetailsService() {
-        UserDetails user = User.withUsername("user")
-                .password(passwordEncoder().encode("password"))
-                .roles("USER")
-                .build();
-        return new InMemoryUserDetailsManager(user);
-    }
-
-    @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
@@ -56,4 +45,5 @@ public class AuthorizationServerConfig {
         OAuth2AuthorizationServerConfiguration.applyDefaultSecurity(http);
         return http.formLogin(Customizer.withDefaults()).build();
     }
+    
 }
